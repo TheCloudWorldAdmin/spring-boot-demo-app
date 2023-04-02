@@ -9,11 +9,11 @@ public class HelloWorldController {
 	
 	@RequestMapping("/")
 	public String sayHello() {
-		return "Hello, This app is created for Demo purpose to client."
+		return "Best project to practise DevOps methodology"
 			+
 			"\n"
 			+
-			"This app has been deployed using Pipeline (v0.2)"
+			"Please update only here"
 			+
 			"\n";
 	}
