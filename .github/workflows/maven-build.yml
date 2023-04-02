@@ -34,7 +34,7 @@ jobs:
     - name: lets see the target folder and verify the jar file
       run: cd target && ls -la
     - name: run the microservice for verification
-      run: mvn -B clean verify
+      run: java -jar spring-test-1.0.jar
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 #    - name: Update dependency graph
