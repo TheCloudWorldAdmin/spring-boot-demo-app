@@ -36,6 +36,6 @@ jobs:
     - name: archive the artifact
       run: tar cvf spring.tar target/
     - name: upload artifact
-      run: curl -ukwilshan@gmail.com:tcw.James.725 -T target/spring.tar "https://thecloudworld.jfrog.io/artifactory/tcw-generic-local/v2.0"
+      run: curl -ukwilshan@gmail.com:tcw.James.725 -T target/spring.tar "https://thecloudworld.jfrog.io/artifactory/tcw-generic-local/v3.0"
   #  - name: run the microservice for verification
   #    run: cd target && nohup java -jar spring-test-1.0.jar &
