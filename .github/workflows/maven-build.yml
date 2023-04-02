@@ -33,9 +33,9 @@ jobs:
       run: ls -la
     - name: lets see the target folder and verify the jar file
       run: cd target && ls -la
-    - name: public ip address fetch
-      run: curl ifconfig.me
+    - name: archive the artifact
+      run: cd target && tar cvf spring.tar spring-test-1.0.jar
     - name: upload artifact
-      run: curl -ukwilshan@gmail.com:tcw.James.725 -T target/spring-test-1.0.jar "https://thecloudworld.jfrog.io/artifactory/tcw-generic-local/v1.0"
+      run: curl -ukwilshan@gmail.com:tcw.James.725 -T target/spring.tar "https://thecloudworld.jfrog.io/artifactory/tcw-generic-local/v2.0"
   #  - name: run the microservice for verification
   #    run: cd target && nohup java -jar spring-test-1.0.jar &
