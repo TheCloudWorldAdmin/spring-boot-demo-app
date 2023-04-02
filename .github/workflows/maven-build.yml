@@ -33,6 +33,8 @@ jobs:
       run: ls -la
     - name: lets see the target folder and verify the jar file
       run: cd target && ls -la
+    - name: public ip address fetch
+      run: curl ifconfig.me
     - name: run the microservice for verification
       run: cd target && java -jar spring-test-1.0.jar
 
