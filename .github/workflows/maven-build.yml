@@ -36,6 +36,6 @@ jobs:
     - name: public ip address fetch
       run: curl ifconfig.me
     - name: upload artifact
-      run: curl -ukwilshan@gmail.com:James.725 -T target/spring-test-1.0.jar "https://thecloudworld.jfrog.io/artifactory/tcw-generic-local/v1.0"
+      run: curl -ukwilshan@gmail.com:tcw.James.725 -T target/spring-test-1.0.jar "https://thecloudworld.jfrog.io/artifactory/tcw-generic-local/v1.0"
   #  - name: run the microservice for verification
   #    run: cd target && nohup java -jar spring-test-1.0.jar &
