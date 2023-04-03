@@ -13,7 +13,7 @@ public class HelloWorldController {
 			+
 			"\n"
 			+
-			"updated v3.0"
+			"updated v4.0"
 			+
 			"\n";
 	}
