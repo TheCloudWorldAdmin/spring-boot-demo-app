@@ -9,11 +9,11 @@ public class HelloWorldController {
 	
 	@RequestMapping("/")
 	public String sayHello() {
-		return "Best project to practise DevOps methodology"
+		return "Best project to practise DevOps methodology \n"
 			+
 			"\n"
 			+
-			"Please update only here"
+			"updated v3.0"
 			+
 			"\n";
 	}
