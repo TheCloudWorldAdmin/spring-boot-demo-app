@@ -9,11 +9,11 @@ public class HelloWorldController {
 	
 	@RequestMapping("/")
 	public String sayHello() {
-		return "Hello, This app is created for Demo purpose to client."
+		return "Hello, The Infrastructure has been deployed successfully"
 			+
 			"\n"
 			+
-			"This app has been deployed using Pipeline (v0.2)"
+			"Please proceed with the application deployment using CICD Pipeline"
 			+
 			"\n";
 	}
